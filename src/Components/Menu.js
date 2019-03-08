@@ -1,7 +1,23 @@
 import React, { Component } from 'react';
 import '../App.css';
 
+const menuList = [
+    {
+        'href': '#portfolio',
+        'title': 'Portfolio',
+    },
+    {
+        'href': '#about-me',
+        'title': 'About me',
+    },
+    {
+        'href': '#contacts',
+        'title': 'Contacts',
+    }
+]
+
 class Menu extends Component {
+
     render() {
         return (
             <nav className='menu'>
@@ -11,9 +27,9 @@ class Menu extends Component {
                     <span className="line line-3"></span>
                 </div>
                 <ul className='menu-list'>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#about-me">About me</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
+                    {menuList.map((menuItem, i) => (
+                        <li key={i}><a href={menuItem.href}> {menuItem.title} </a></li>
+                    ))}
                 </ul>
             </nav>
         );
