@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "73f5bb2a60510a9e31cab4dc7a4e01a3",
-    "url": "/portfolio/static/media/cpto.73f5bb2a.png"
+    "revision": "7067237e837172df0c816c3b9af70ddf",
+    "url": "/portfolio/static/media/gile.7067237e.png"
   },
   {
-    "revision": "a6ef4f9686b72fc0448f",
-    "url": "/portfolio/static/css/main.f72d8ff9.chunk.css"
+    "revision": "3b14795fec8934411f65",
+    "url": "/portfolio/static/css/main.dfba541d.chunk.css"
   },
   {
-    "revision": "d92dd6d86fd5a9a70dc6",
-    "url": "/portfolio/static/js/1.d92dd6d8.chunk.js"
+    "revision": "48089f82bfb151c14fc7",
+    "url": "/portfolio/static/js/1.48089f82.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
     "url": "/portfolio/static/js/runtime~main.ee2a1003.js"
   },
   {
-    "revision": "a241958c14116973f15d8cfb19c6bfb3",
-    "url": "/portfolio/static/media/stm.a241958c.png"
-  },
-  {
     "revision": "2bdafefdc25a871991a3e011f8559671",
     "url": "/portfolio/static/media/bg2.2bdafefd.png"
+  },
+  {
+    "revision": "a241958c14116973f15d8cfb19c6bfb3",
+    "url": "/portfolio/static/media/stm.a241958c.png"
   },
   {
     "revision": "11e7bcdd00cbc7a1ed6a209ef6b635fe",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/vilniusMap.32176ad4.png"
   },
   {
-    "revision": "7067237e837172df0c816c3b9af70ddf",
-    "url": "/portfolio/static/media/gile.7067237e.png"
+    "revision": "3b14795fec8934411f65",
+    "url": "/portfolio/static/js/main.3b14795f.chunk.js"
   },
   {
-    "revision": "a6ef4f9686b72fc0448f",
-    "url": "/portfolio/static/js/main.a6ef4f96.chunk.js"
+    "revision": "73f5bb2a60510a9e31cab4dc7a4e01a3",
+    "url": "/portfolio/static/media/cpto.73f5bb2a.png"
   },
   {
     "revision": "659862efcd6a60c26c0dad34df78cda0",
@@ -60,15 +60,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/memoryGame.61459c91.png"
   },
   {
-    "revision": "b2a9ebeb4c1d7ae6d6c4902a4e2b0bd2",
-    "url": "/portfolio/static/media/stnamai.b2a9ebeb.png"
-  },
-  {
     "revision": "9b3939e4d1b294f25469db3b71e6b57d",
     "url": "/portfolio/static/media/profile-photo.9b3939e4.png"
   },
   {
-    "revision": "b2c5be1a659158c38579308701ff5e2f",
+    "revision": "36ed844672b3624571f691d230bbd55c",
     "url": "/portfolio/index.html"
   }
 ];
