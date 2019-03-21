@@ -6,61 +6,71 @@ const projects = [
         'url': require('../images/stm.png'),
         'alt': 'web developement',
         'title': 'Skaitmeninės tekstilės namai',
-        'content': 'Info about project'
+        'content': 'I created this website for my friend who owns a digital textile business. This was my first website created from scratch. At first I created the design, then wrote code and added it to the Wordpress CMS. ',
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout']
     },
     {
         'url': require('../images/pokalbis.png'),
         'alt': 'web developement',
         'title': 'Asmeninis pokalbis',
-        'content': 'Info'
+        'content': 'Info',
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout']
     },
     {
         'url': require('../images/vilniusMap.png'),
         'alt': 'web developement',
         'title': 'Vilnius map',
-        'content': 'Info about project'
+        'content': 'Info about project',
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout']
     },
     {
         'url': require('../images/gile.png'),
         'alt': 'web developement',
         'title': 'Gilė',
-        'content': 'Info about project'
+        'content': 'Info about project',
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout']
     },
     {
         'url': require('../images/cpto.png'),
         'alt': 'web developement',
         'title': 'Consulens baltic',
-        'content': 'Info about project'
+        'content': 'Info about project',
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout']
     },
     {
         'url': require('../images/grindu-slifavimas.png'),
         'alt': 'web developement',
         'title': 'Grindų šlifavimas',
-        'content': 'Info about project'
+        'content': 'Info about project',
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout']
     },
     {
         'url': require('../images/gpais.png'),
         'alt': 'web developement',
         'title': 'GPAIS',
-        'content': 'Info about project'
+        'content': 'Info about project',
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout']
     },
     {
         'url': require('../images/kelmesasc.png'),
         'alt': 'web developement',
         'title': 'Kelmės aklųjų ir silpnaregių centras',
-        'content': 'Info about project'
+        'content': 'Info about project',
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout']
     },
     {
         'url': require('../images/restaurant.png'),
         'alt': 'web developement',
         'title': 'Restaurant app',
-        'content': 'Info about project'
+        'content': 'Info about project',
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout']
     },
     {
         'url': require('../images/memoryGame.png'),
         'alt': 'web developement',
         'title': 'Memory game',
-        'content': 'Info about project'
+        'content': 'Info about project',
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout']
     },
 ]
 
@@ -99,6 +109,13 @@ class Portfolio extends Component {
                                 <h2 className='about-project_title'>{projects[this.state.id].title}</h2>
                                 <h3 className='section-title'>Short description</h3>
                                 <p>{projects[this.state.id].content}</p>
+                                <h3 className='section-title'>Services</h3>
+                                    {projects[this.state.id].services.map((service, i) => (
+                                        <div className='portfolio-services' key={i}>
+                                            <i className="fas fa-check"></i>
+                                            <h4>{service}</h4>
+                                        </div>
+                                    ))}
                             </div>
                         </div>
                     </div>

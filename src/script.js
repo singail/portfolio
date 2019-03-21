@@ -55,17 +55,9 @@ jQuery(document).ready(function ($) {
 
  const toggleModal = (e) => {
    e.preventDefault();
-   modal.fadeToggle(500);
-  //  modal.toggleClass('open');
+   modal.fadeToggle(300);
    bgOverlay.toggleClass('darken');
  };
-
-//  const closeM = (e) => {
-//   e.preventDefault();
-//   modal.fadeOut('slow');
-//   // modal.toggleClass('open');
-//   bgOverlay.toggleClass('darken');
-// };
 
  projectImg.on('click', toggleModal);
 

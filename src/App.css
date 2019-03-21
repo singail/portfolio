@@ -379,7 +379,7 @@ footer p {
 }
 
 .fa-angle-double-up:hover {
-  color: #f3f0ee;
+  color: #005b95;
 }
 
 .fa-angle-double-up.show {
@@ -461,6 +461,24 @@ footer p {
   text-transform: uppercase;
   font-size: 1.5em;
 }
+
+.portfolio-services {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.fa-check {
+  color: #005b95;
+  margin-right: 20px;
+}
+
+.portfolio-services h4 {
+  font-size: 1.5em;
+  color: #8faebe;
+  margin: 0;
+}
+
 
 /* ////////////////// MEDIA QUERYS ////////////////// */
 
