@@ -31,7 +31,6 @@
   -webkit-box-shadow: 1px 1px 14px 0px rgba(0,0,0,0.57);
   -moz-box-shadow: 1px 1px 14px 0px rgba(0,0,0,0.57);
   box-shadow: 1px 1px 14px 0px rgba(0,0,0,0.57);
-  /* background-color: #3277af; */
   background-color: rgba(50, 119, 175, 0.3); 
 }
 
@@ -283,17 +282,28 @@ transition: all .3s ease-out;
   opacity: 0.5;
 }
 
+.about {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-me {
   display: flex;
   flex-wrap: wrap;
   border-top: 1px #a9a6a6 solid;
   border-left: 1px #a9a6a6 solid;
   border-top-left-radius: 150px;
-  background-color: #c8bd00;
   -webkit-box-shadow: -5px -4px 8px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: -5px -4px 8px 0px rgba(0,0,0,0.2);
   box-shadow: -5px -4px 8px 0px rgba(0,0,0,0.2);
   justify-content: center;
+  color: #282726; 
+  background-color: #f3f0ee;
 }
 
 .about-me-introduction {
@@ -316,13 +326,17 @@ transition: all .3s ease-out;
   box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.57);
 }
 
+.about-me h2 {
+  font-size: 1,7em;
+}
+
 .about-content {
   font-size: 18px;
   line-height: 1.5;
 }
 
 footer {
-  background-color: #252525;
+  background-color: #282726;
   color: #f3f0ee;
   display: flex;
   flex-direction: column;
@@ -390,13 +404,11 @@ footer p {
 
 .modal {
   display: none;
-  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 4;
-  width: 90vw;
-  height: 90vh;
+  margin: 0 auto;
   max-width: 1000px;
   padding: 20px;
   background-color: #f3f0ee;
@@ -477,6 +489,19 @@ footer p {
   font-size: 1.5em;
   color: #8faebe;
   margin: 0;
+}
+
+.fa-angle-double-right {
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+  font-size: 40px;
+  cursor: pointer;
+  color: #c8bd00;
+}
+
+.fa-angle-double-right:hover {
+  color: #005b95;
 }
 
 
