@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7067237e837172df0c816c3b9af70ddf",
-    "url": "/portfolio/static/media/gile.7067237e.png"
+    "revision": "73f5bb2a60510a9e31cab4dc7a4e01a3",
+    "url": "/portfolio/static/media/cpto.73f5bb2a.png"
   },
   {
-    "revision": "1fd71554181c9ded3ddb",
-    "url": "/portfolio/static/css/main.769fcd89.chunk.css"
+    "revision": "516d4ba1f32a04eb3712",
+    "url": "/portfolio/static/css/main.7621d396.chunk.css"
   },
   {
     "revision": "48089f82bfb151c14fc7",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/vilniusMap.32176ad4.png"
   },
   {
-    "revision": "1fd71554181c9ded3ddb",
-    "url": "/portfolio/static/js/main.1fd71554.chunk.js"
+    "revision": "7067237e837172df0c816c3b9af70ddf",
+    "url": "/portfolio/static/media/gile.7067237e.png"
   },
   {
-    "revision": "73f5bb2a60510a9e31cab4dc7a4e01a3",
-    "url": "/portfolio/static/media/cpto.73f5bb2a.png"
+    "revision": "516d4ba1f32a04eb3712",
+    "url": "/portfolio/static/js/main.516d4ba1.chunk.js"
   },
   {
     "revision": "659862efcd6a60c26c0dad34df78cda0",
@@ -60,11 +60,15 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/memoryGame.61459c91.png"
   },
   {
+    "revision": "abe8ac52132d2a1b02ca30038a916e10",
+    "url": "/portfolio/static/media/bg3.abe8ac52.png"
+  },
+  {
     "revision": "9b3939e4d1b294f25469db3b71e6b57d",
     "url": "/portfolio/static/media/profile-photo.9b3939e4.png"
   },
   {
-    "revision": "78cb4ebc6df3dcf30832a0d310a91a02",
+    "revision": "88a904b8cb32fb68497432c57924d5dd",
     "url": "/portfolio/index.html"
   }
 ];

@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolio/static/css/main.769fcd89.chunk.css",
-  "main.js": "/portfolio/static/js/main.1fd71554.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.1fd71554.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.7621d396.chunk.css",
+  "main.js": "/portfolio/static/js/main.516d4ba1.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.516d4ba1.chunk.js.map",
   "static/js/1.48089f82.chunk.js": "/portfolio/static/js/1.48089f82.chunk.js",
   "static/js/1.48089f82.chunk.js.map": "/portfolio/static/js/1.48089f82.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
@@ -17,9 +17,10 @@
   "static/media/kelmesasc.png": "/portfolio/static/media/kelmesasc.bcc35f9b.png",
   "static/media/restaurant.png": "/portfolio/static/media/restaurant.cb03e8a8.png",
   "static/media/memoryGame.png": "/portfolio/static/media/memoryGame.61459c91.png",
+  "static/media/bg3.png": "/portfolio/static/media/bg3.abe8ac52.png",
   "static/media/stm.png": "/portfolio/static/media/stm.a241958c.png",
-  "static/css/main.769fcd89.chunk.css.map": "/portfolio/static/css/main.769fcd89.chunk.css.map",
+  "static/css/main.7621d396.chunk.css.map": "/portfolio/static/css/main.7621d396.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.3a646e27245b534b7329f88d6ed1b66c.js": "/portfolio/precache-manifest.3a646e27245b534b7329f88d6ed1b66c.js",
+  "precache-manifest.cdcf917e2bb714e0c68c52a43944b30a.js": "/portfolio/precache-manifest.cdcf917e2bb714e0c68c52a43944b30a.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
