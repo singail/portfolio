@@ -404,13 +404,16 @@ footer p {
 
 .modal {
   display: none;
+  position: fixed; 
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 50%; 
+  transform: translate(-49%, -49%);
   z-index: 4;
   margin: 0 auto;
+  width: 1000px;
   max-width: 1000px;
-  padding: 20px;
+  max-height: 100%;
+  padding: 25px;
   background-color: #f3f0ee;
   border: 2px solid #f3f0ee;
   border-radius: 5px;
@@ -425,8 +428,9 @@ footer p {
 
 .close-modal {
   font-size: 40px;
-  float: right;
-  margin-right: 20px;
+  position: absolute;
+  top: 5px;
+  right: 25px;
   cursor: pointer;
 }
 
@@ -506,6 +510,7 @@ footer p {
 
 
 /* ////////////////// MEDIA QUERYS ////////////////// */
+
 
 @media only screen and (max-width: 1000px) {
 
