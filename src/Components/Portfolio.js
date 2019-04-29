@@ -3,15 +3,44 @@ import '../App.css';
 
 const projects = [
     {
+        'img': require('../images/energijos-valdymas.jpg'),
+        'image': require('../images/energijosvaldymas.png'),
+        'url': 'https://energijosvaldymas.lt',
+        'alt': 'web design',
+        'title': 'Energijos valdymas',
+        'content': 'A simple website for a renewable energy company. I created logo, website and provided a small instruction about how to manage a website and change the content.',
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout', 'Logo Design', 'Image Gallery', 'Contact Form']
+    },
+    {
+        'img': require('../images/gpais.png'),
+        'image': require('../images/gaminiu-ir-pakuociu-apskaita.png'),
+        'url': 'https://gpais.com',
+        'alt': 'web developement',
+        'title': 'GPAIS',
+        'content': 'A website for a company that provides packaging and waste accounting services.',
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout', 'SEO', 'SSL integration', 'Popup Contact Form']
+    },
+    {
+        'img': require('../images/cpto.jpg'),
+        'image': require('../images/cpto.png'),
+        'url': 'https://cpto.eu',
+        'alt': 'web developement',
+        'title': 'Consulens baltic',
+        'content': 'A multilingual website for online consulting company.',
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout', 'Multilingual', 'SSL integration']
+    },
+    {
         'img': require('../images/stm.png'),
+        'image': require('../images/stm.png'),
         'url': 'http://stnamai.lt/',
         'alt': 'web developement',
         'title': 'Skaitmeninės tekstilės namai',
-        'content': 'I created this website for my friend who owns a digital textile business. This was my first website created from scratch. At first I created the design, then wrote code and added it to the Wordpress CMS. ',
+        'content': 'I created this website for my friend who owns a digital textile business. This was the first website I created starting from design to code. At first I created the design, then wrote code and added it to the Wordpress CMS. ',
         'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout']
     },
     {
         'img': require('../images/pokalbis.png'),
+        'image': require('../images/privatus-pokalbis.png'),
         'url': '#',
         'alt': 'web developement',
         'title': 'Asmeninis pokalbis',
@@ -20,54 +49,43 @@ const projects = [
     },
     {
         'img': require('../images/vilniusMap.png'),
+        'image': require('../images/vilniusMap.png'),
         'url': 'https://singail.github.io/Neighborhood-Map/',
         'alt': 'web developement',
         'title': 'Vilnius map',
         'content': 'This project is a part of the Front-End Web Developer Nanodegree Program of Udacity. My goal was to develop a single page Neighborhood Map application using React framework. The app contains the list of places to visit in my chosen area and a map of that area with marked locations.',
-        'services': ['ReactJs', 'Website Design', 'Responsive Layout']
+        'services': ['ReactJs', 'Website Design', 'Responsive Layout', 'Google Maps API']
     },
     {
         'img': require('../images/gile.png'),
+        'image': require('../images/zygeiviu-klubas-gile.png'),
         'url': 'https://gile.lt',
         'alt': 'web developement',
         'title': 'Gilė',
-        'content': 'This is my first website.',
+        'content': 'This is my first website I created using a Wordpress Theme.',
         'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout', 'SSL integration']
     },
     {
-        'img': require('../images/cpto.png'),
-        'url': 'https://cpto.eu',
-        'alt': 'web developement',
-        'title': 'Consulens baltic',
-        'content': 'Info about project',
-        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout', 'Multilingual', 'SSL integration']
-    },
-    {
         'img': require('../images/grindu-slifavimas.png'),
+        'image': require('../images/grindu.png'),
         'url': 'https://grindu-slifavimas.lt',
         'alt': 'web developement',
         'title': 'Grindų šlifavimas',
-        'content': 'Info about project',
-        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout']
-    },
-    {
-        'img': require('../images/gpais.png'),
-        'url': 'https://gpais.com',
-        'alt': 'web developement',
-        'title': 'GPAIS',
-        'content': 'Info about project',
-        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout', 'SEO', 'SSL integration', 'Popup Contact Form']
+        'content': 'A website representing a small service company.',
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout', 'Image Gallery', 'Logo Design']
     },
     {
         'img': require('../images/kelmesasc.png'),
+        'image': require('../images/kelmesasc.png'),
         'url': 'http://kelmesasc.lt',
         'alt': 'web developement',
         'title': 'Kelmės aklųjų ir silpnaregių centras',
-        'content': 'Info about project',
+        'content': 'One of my first websites created with Wordpress CMS.',
         'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout']
     },
     {
         'img': require('../images/restaurant.png'),
+        'image': require('../images/restaurant.png'),
         'url': '#',
         'alt': 'web developement',
         'title': 'Restaurant app',
@@ -76,6 +94,7 @@ const projects = [
     },
     {
         'img': require('../images/memoryGame.png'),
+        'image': require('../images/memoryGame.png'),
         'url': 'https://singail.github.io/fend-project-memory-game/',
         'alt': 'web developement',
         'title': 'Memory game',
@@ -110,7 +129,7 @@ class Portfolio extends Component {
                         <div className='modal-content'>
                             <div className='modal-images'>
                                 <a href={projects[this.state.id].url} target="_blank" rel="noopener noreferrer">
-                                    <img src={projects[this.state.id].img} alt="website design"></img>
+                                    <img src={projects[this.state.id].image} alt="website design"></img>
                                 </a>
                             </div>
                             <div className='about-project'>
