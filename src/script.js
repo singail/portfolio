@@ -55,7 +55,7 @@ jQuery(document).ready(function ($) {
 
  const toggleModal = (e) => {
    e.preventDefault();
-   modal.fadeToggle(300);
+  modal.fadeToggle();
    bgOverlay.toggleClass('darken');
  };
 

@@ -4,7 +4,6 @@ import '../App.css';
 const projects = [
     {
         'img': require('../images/energijos-valdymas.jpg'),
-        'image': require('../images/energijosvaldymas.png'),
         'url': 'https://energijosvaldymas.lt',
         'alt': 'web design',
         'title': 'Energijos valdymas',
@@ -13,7 +12,6 @@ const projects = [
     },
     {
         'img': require('../images/gpais.png'),
-        'image': require('../images/gaminiu-ir-pakuociu-apskaita.png'),
         'url': 'https://gpais.com',
         'alt': 'web developement',
         'title': 'GPAIS',
@@ -22,7 +20,6 @@ const projects = [
     },
     {
         'img': require('../images/cpto.jpg'),
-        'image': require('../images/cpto.png'),
         'url': 'https://cpto.eu',
         'alt': 'web developement',
         'title': 'Consulens baltic',
@@ -31,7 +28,6 @@ const projects = [
     },
     {
         'img': require('../images/stm.png'),
-        'image': require('../images/stm.png'),
         'url': 'http://stnamai.lt/',
         'alt': 'web developement',
         'title': 'Skaitmeninės tekstilės namai',
@@ -40,7 +36,6 @@ const projects = [
     },
     {
         'img': require('../images/pokalbis.png'),
-        'image': require('../images/privatus-pokalbis.png'),
         'url': '#',
         'alt': 'web developement',
         'title': 'Asmeninis pokalbis',
@@ -49,7 +44,6 @@ const projects = [
     },
     {
         'img': require('../images/vilniusMap.png'),
-        'image': require('../images/vilniusMap.png'),
         'url': 'https://singail.github.io/Neighborhood-Map/',
         'alt': 'web developement',
         'title': 'Vilnius map',
@@ -58,7 +52,6 @@ const projects = [
     },
     {
         'img': require('../images/gile.png'),
-        'image': require('../images/zygeiviu-klubas-gile.png'),
         'url': 'https://gile.lt',
         'alt': 'web developement',
         'title': 'Gilė',
@@ -67,7 +60,6 @@ const projects = [
     },
     {
         'img': require('../images/grindu-slifavimas.png'),
-        'image': require('../images/grindu.png'),
         'url': 'https://grindu-slifavimas.lt',
         'alt': 'web developement',
         'title': 'Grindų šlifavimas',
@@ -76,7 +68,6 @@ const projects = [
     },
     {
         'img': require('../images/kelmesasc.png'),
-        'image': require('../images/kelmesasc.png'),
         'url': 'http://kelmesasc.lt',
         'alt': 'web developement',
         'title': 'Kelmės aklųjų ir silpnaregių centras',
@@ -85,7 +76,6 @@ const projects = [
     },
     {
         'img': require('../images/restaurant.png'),
-        'image': require('../images/restaurant.png'),
         'url': '#',
         'alt': 'web developement',
         'title': 'Restaurant app',
@@ -94,7 +84,6 @@ const projects = [
     },
     {
         'img': require('../images/memoryGame.png'),
-        'image': require('../images/memoryGame.png'),
         'url': 'https://singail.github.io/fend-project-memory-game/',
         'alt': 'web developement',
         'title': 'Memory game',
@@ -129,7 +118,7 @@ class Portfolio extends Component {
                         <div className='modal-content'>
                             <div className='modal-images'>
                                 <a href={projects[this.state.id].url} target="_blank" rel="noopener noreferrer">
-                                    <img src={projects[this.state.id].image} alt="website design"></img>
+                                    <img src={projects[this.state.id].img} alt="website design"></img>
                                 </a>
                             </div>
                             <div className='about-project'>

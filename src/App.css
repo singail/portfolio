@@ -511,13 +511,20 @@ footer p {
 
 /* ////////////////// MEDIA QUERYS ////////////////// */
 
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1065px) {
 
   .front-page-inner, .portfolio, .about, .services {
-      padding: 100px 50px;
+    padding: 100px 50px;
+}
+
+  .modal {
+    max-width: 80vw;
   }
-  
+
+  .modal-content {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -534,6 +541,10 @@ footer p {
 
   .desktop {
       max-width: 50%;
+  }
+
+  .modal {
+    max-width: 100vw;
   }
 
   footer p {
@@ -571,5 +582,9 @@ footer p {
       height: 30px;
       font-size: 15px;
   }
-}
 
+  .close-modal {
+    top: 0px;
+    right: 5px;
+  }
+}
