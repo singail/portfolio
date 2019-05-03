@@ -511,6 +511,12 @@ footer p {
 
 /* ////////////////// MEDIA QUERYS ////////////////// */
 
+@media only screen and (max-width: 1500px) {
+  .about {
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 1065px) {
 
   .front-page-inner, .portfolio, .about, .services {

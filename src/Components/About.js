@@ -15,6 +15,9 @@ class About extends Component {
                     <p className='about-content'>
                     2017 October I was accepted as a recepient of the <strong>Google Developer Challenge Scholarship</strong> and after three months of the challenge I was selected to finish a full program of <strong>Front End Web Developer Nanodegree at Udacity</strong>. It took six months of intense studying, 8 projects were both challenging and exciting. Some of my projects are presented on my portfolio site. 
                     </p>
+                    <p className='about-content'>
+                    2018 December I completed two-month intense program - <strong>Sourcery for Front-End Developers</strong>. I had a chance to learn from top specialists in <strong>Devbridge</strong>. Part of the program was to build a working intranet with a given design using Agile methodology, working in small teams. This experience was a big motivation to move forward.
+                    </p>
                     <p className='about-content'>Most of my websites are build with <strong>Wordpress CMS</strong> (Content Management System). Wordpress is the most popular CMS that allows users to easily create, publish, edit and organize content. I help my clients to learn and use Wordpress.</p>
                     <p className='about-content'>This website is build with <strong>React</strong> - a Javascript library for building user interfaces. </p>
                 </div>
