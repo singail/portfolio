@@ -57,6 +57,12 @@ jQuery(document).ready(function ($) {
    e.preventDefault();
   modal.fadeToggle();
    bgOverlay.toggleClass('darken');
+
+   if(bgOverlay.hasClass('darken') === true) {
+    $('body').toggleClass('fixed');
+   } else {
+    $('body').toggleClass('fixed');
+   }
  };
 
  projectImg.on('click', toggleModal);
@@ -64,6 +70,9 @@ jQuery(document).ready(function ($) {
  bgOverlay.on('click', toggleModal);
 
  closeModal.on('click', toggleModal);
+
+ //Prevent body from scrolling when modal is open
+
 
 
 });

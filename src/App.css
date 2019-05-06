@@ -228,6 +228,7 @@ transition: all .3s ease-out;
 }
 
 .portfolio {
+  position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -404,26 +405,29 @@ footer p {
 
 .modal {
   display: none;
-  position: fixed; 
+  position: fixed;
+  width: 50vw;
+  height: 100vh;
+  min-height: 100vh;
+  z-index: 4;
+  top: 0;
+  /* left: 0; */
+  /* position: fixed; 
   top: 50%;
   left: 50%; 
   transform: translate(-49%, -49%);
-  z-index: 4;
+ 
   margin: 0 auto;
   width: 1000px;
   max-width: 1000px;
-  max-height: 100%;
-  padding: 25px;
+  max-height: 100%; */
+  padding: 70px;
   background-color: #f3f0ee;
   border: 2px solid #f3f0ee;
   border-radius: 5px;
   -webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
-}
-
-.modal.open {
-  display: block;
 }
 
 .close-modal {
@@ -450,7 +454,15 @@ footer p {
 
 .bg-overlay.darken {
   display: block;
- 
+}
+
+/* Prevent body from scrolling when modal is open */
+
+.fixed {
+  overflow: hidden;
+  position:fixed;
+  width: 100%;
+  height: 100%;
 }
 
 /* https://css-tricks.com/considerations-styling-modal/ */
@@ -481,7 +493,7 @@ footer p {
 .portfolio-services {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
 }
 
 .fa-check {
@@ -490,7 +502,7 @@ footer p {
 }
 
 .portfolio-services h4 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: #8faebe;
   margin: 0;
 }
@@ -514,6 +526,11 @@ footer p {
 @media only screen and (max-width: 1500px) {
   .about {
     height: auto;
+  }
+
+  .modal {
+    width: 80vw;
+    padding: 25px;
   }
 }
 
@@ -550,6 +567,7 @@ footer p {
   }
 
   .modal {
+    width: 100vw;
     max-width: 100vw;
   }
 
