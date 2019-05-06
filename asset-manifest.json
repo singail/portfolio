@@ -1,7 +1,7 @@
 {
-  "main.css": "/portfolio/static/css/main.fc543d7e.chunk.css",
-  "main.js": "/portfolio/static/js/main.cfb21bb7.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.cfb21bb7.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.e309f0c8.chunk.css",
+  "main.js": "/portfolio/static/js/main.befa51c1.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.befa51c1.chunk.js.map",
   "static/js/1.48089f82.chunk.js": "/portfolio/static/js/1.48089f82.chunk.js",
   "static/js/1.48089f82.chunk.js.map": "/portfolio/static/js/1.48089f82.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
@@ -20,8 +20,8 @@
   "static/media/memoryGame.png": "/portfolio/static/media/memoryGame.61459c91.png",
   "static/media/energijos-valdymas.jpg": "/portfolio/static/media/energijos-valdymas.5c7a4ace.jpg",
   "static/media/profile-photo.png": "/portfolio/static/media/profile-photo.9b3939e4.png",
-  "static/css/main.fc543d7e.chunk.css.map": "/portfolio/static/css/main.fc543d7e.chunk.css.map",
+  "static/css/main.e309f0c8.chunk.css.map": "/portfolio/static/css/main.e309f0c8.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.866733ceb4c9bb97733dba232a914a28.js": "/portfolio/precache-manifest.866733ceb4c9bb97733dba232a914a28.js",
+  "precache-manifest.e1259fb2f447b7cf73fec86b2a1aa47d.js": "/portfolio/precache-manifest.e1259fb2f447b7cf73fec86b2a1aa47d.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
