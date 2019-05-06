@@ -103,6 +103,22 @@ class Portfolio extends Component {
         this.setState({id: projectId});
     }
 
+    nextClick = (e) => {
+        let projectId = e.target.getAttribute('id');
+        projectId++;
+        if (projectId < 11) {
+            this.setState({id: projectId});
+        } else {
+            this.setState({id: '0'});
+        }
+    }
+
+    handleKeyPress = (event) => {
+        if(event.key === 'Enter'){
+          console.log('enter press here! ')
+        }
+      }
+
     render() {
         return (
             <section id="portfolio" className="portfolio">
@@ -133,6 +149,9 @@ class Portfolio extends Component {
                                         </div>
                                     ))}
                             </div>
+                        </div>
+                        <div className='next-project'>
+                            <i className="fas fa-angle-right" onClick={this.nextClick} onKeyPress={this.handleKeyPress} id={this.state.id}></i>
                         </div>
                     </div>
             </section>

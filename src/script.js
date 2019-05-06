@@ -58,11 +58,20 @@ jQuery(document).ready(function ($) {
   modal.fadeToggle();
    bgOverlay.toggleClass('darken');
 
+   //Fix body to prevent from scrolling
    if(bgOverlay.hasClass('darken') === true) {
     $('body').toggleClass('fixed');
    } else {
     $('body').toggleClass('fixed');
    }
+
+ };
+
+//  Move to the top of projects part after the modal is closed
+ const scrollTo = () => {
+    $('html, body').animate({
+      scrollTop: $(".portfolio").offset().top
+    }, 100);
  };
 
  projectImg.on('click', toggleModal);
@@ -70,6 +79,10 @@ jQuery(document).ready(function ($) {
  bgOverlay.on('click', toggleModal);
 
  closeModal.on('click', toggleModal);
+
+ closeModal.on('click', scrollTo);
+
+ bgOverlay.on('click', scrollTo);
 
 
 

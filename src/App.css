@@ -246,8 +246,8 @@ transition: all .3s ease-out;
 
 .overlay {
   border-radius: 5px;
-  max-width: 305px;
-  max-height: 343px;
+  max-width: 308px;
+  max-height: 351px;
   background-color: rgba(0, 0, 0, 0.1); 
   -moz-transition: background-color 2s;
   -webkit-transition: background-color 2s;
@@ -521,6 +521,21 @@ footer p {
   color: #005b95;
 }
 
+.next-project {
+  position: relative;
+}
+
+.fa-angle-right {
+  font-size: 50px;
+  float: right;
+  cursor: pointer;
+  color: #c8bd00;
+}
+
+.fa-angle-right:hover {
+  color: #005b95;
+}
+
 
 /* ////////////////// MEDIA QUERYS ////////////////// */
 
@@ -583,6 +598,15 @@ footer p {
 @media only screen and (max-width: 450px) {
   .menu-bar {
       margin-right: 50px;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-list li {
+    padding: 5px 10px;
   }
 
   .front-page {
