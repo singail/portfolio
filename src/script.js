@@ -71,8 +71,6 @@ jQuery(document).ready(function ($) {
 
  closeModal.on('click', toggleModal);
 
- //Prevent body from scrolling when modal is open
-
 
 
 });
