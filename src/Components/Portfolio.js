@@ -8,7 +8,7 @@ const projects = [
         'alt': 'web design',
         'title': 'Energijos valdymas',
         'content': 'A simple website for a renewable energy company. I created logo, website and provided a small instruction about how to manage a website and change the content.',
-        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout', 'Logo Design', 'Image Gallery', 'Contact Form']
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout', 'Logo Design', 'Image Gallery', 'Contact Form', 'SEO']
     },
     {
         'img': require('../images/gpais.png'),
@@ -16,7 +16,7 @@ const projects = [
         'alt': 'web developement',
         'title': 'GPAIS',
         'content': 'A website for a company that provides packaging and waste accounting services.',
-        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout', 'SEO', 'SSL integration', 'Popup Contact Form']
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout', 'SEO', 'SSL integration', 'Popup Contact Form', 'SEO']
     },
     {
         'img': require('../images/cpto.jpg'),
@@ -24,7 +24,7 @@ const projects = [
         'alt': 'web developement',
         'title': 'Consulens baltic',
         'content': 'A multilingual website for online consulting company.',
-        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout', 'Multilingual', 'SSL integration']
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout', 'Multilingual', 'SSL integration', 'SEO']
     },
     {
         'img': require('../images/stm.png'),
@@ -64,7 +64,7 @@ const projects = [
         'alt': 'web developement',
         'title': 'Grindų šlifavimas',
         'content': 'A website representing a small service company.',
-        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout', 'Image Gallery', 'Logo Design']
+        'services': ['Wordpress CMS', 'Website Design', 'Responsive Layout', 'Image Gallery', 'Logo Design', 'SEO']
     },
     {
         'img': require('../images/kelmesasc.png'),
@@ -113,12 +113,6 @@ class Portfolio extends Component {
         }
     }
 
-    handleKeyPress = (event) => {
-        if(event.key === 'Enter'){
-          console.log('enter press here! ')
-        }
-      }
-
     render() {
         return (
             <section id="portfolio" className="portfolio">
@@ -142,16 +136,18 @@ class Portfolio extends Component {
                                 <h3 className='section-title'>Short description</h3>
                                 <p>{projects[this.state.id].content}</p>
                                 <h3 className='section-title'>Services</h3>
+                                    <div className='services-block'>
                                     {projects[this.state.id].services.map((service, i) => (
                                         <div className='portfolio-services' key={i}>
                                             <i className="fas fa-check"></i>
                                             <h4>{service}</h4>
                                         </div>
                                     ))}
+                                    </div>
                             </div>
                         </div>
                         <div className='next-project'>
-                            <i className="fas fa-angle-right" onClick={this.nextClick} onKeyPress={this.handleKeyPress} id={this.state.id}></i>
+                            <i className="fas fa-angle-right" tabIndex="0" onClick={this.nextClick} id={this.state.id}></i>
                         </div>
                     </div>
             </section>

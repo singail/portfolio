@@ -13,7 +13,7 @@ class FrontPage extends Component {
                             <img className="desktop" src={require('../images/code.gif')} alt="web-design"></img>
                             <a href="#portfolio">
                                 <div className='link-to-portfolio'>
-                                    <button type="button" className='view-portfolio__button'><span className='button-text'>View portfolio</span><i className="fas fa-angle-double-down button-overlay"></i></button>   
+                                    <button type="button" className='view-portfolio__button' tabIndex="1"><span className='button-text'>View portfolio</span><i className="fas fa-angle-double-down button-overlay"></i></button>   
                                 </div>
                             </a> 
                         </div>
