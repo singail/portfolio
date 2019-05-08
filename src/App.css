@@ -633,6 +633,10 @@ footer p {
   .fa-check {
     font-size: 20px;
   }
+
+  .about-me-introduction {
+    margin: 20px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
