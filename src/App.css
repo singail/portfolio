@@ -264,7 +264,24 @@ transition: all .3s ease-out;
   z-index: 1;
 }
 
-.project-image:hover > .overlay::before {
+.fa-search-plus {
+  font-size: 50px;
+  margin-left: -25px;
+  margin-top: -25px;
+  font-weight: 900;
+  position: absolute;
+  color: white;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+.fa-search-plus.hovered {
+  display: block;
+}
+/* .project-image:hover > .overlay::before {
   font-family: "Font Awesome 5 Free";
   content: "\f00e";
   font-size: 50px;
@@ -277,7 +294,7 @@ transition: all .3s ease-out;
   top: 50%;
   left: 50%;
   cursor: pointer;
-}
+} */
 
 .project-image:hover img {
   opacity: 0.5;

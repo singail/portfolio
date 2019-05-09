@@ -2,7 +2,6 @@ import jQuery from 'jquery';
 
 jQuery(document).ready(function ($) {
 
-
   // Menu bar 
 
   $('.menu-bar').click(function () {
@@ -12,7 +11,6 @@ jQuery(document).ready(function ($) {
 
   // Close menu bar when clicked elsewere
   $('body').click(function(e) {
-
     if(($(e.target).closest('.menu').length === 0)&&($('.menu').hasClass('active'))) {
       $('.menu-bar').toggleClass('open');
       $('.menu').toggleClass('active');
@@ -84,7 +82,24 @@ jQuery(document).ready(function ($) {
 
  bgOverlay.on('click', scrollTo);
 
+ //Show or hide search icon when hovered on image
+  projectImg.mouseenter( function (e) {
+  console.log(e.target);
+  const hoveredImg = e.target;
+  $(hoveredImg).prev().addClass('hovered');
+});
 
+projectImg.mouseleave( function (e) {
+  console.log(e.target);
+  const hoveredImg = e.target;
+  $(hoveredImg).prev().removeClass('hovered');
+});
+
+const searchIcon = $('.fa-search-plus');
+
+projectImg.on('click', function() {
+  $(searchIcon).removeClass('hovered');
+});
 
 });
 

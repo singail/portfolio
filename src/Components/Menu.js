@@ -21,7 +21,7 @@ class Menu extends Component {
     render() {
         return (
             <nav className='menu'>
-                <div className="menu-bar" title="Menu">
+                <div className='menu-bar' title="Menu">
                     <span className="line line-1"></span>
                     <span className="line line-2"></span>
                     <span className="line line-3"></span>
